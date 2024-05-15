@@ -34,3 +34,53 @@ html, body{
     font-size: 13px;
     font-weight: 50;
 }
+#elems{
+    /* background-color: red; */
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 60px;
+    align-items: center;
+}
+#elem1{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+}
+#elem2{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#elem3{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+}
+
+#elem1 #image-div{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+#elem2 #image-div{
+    height: 50%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+#elem3 #image-div{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+#image-div:hover img{
+    scale: 1.1;
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
